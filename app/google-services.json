@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "601369924262-rhad47ickbjtsfh6ln0og0m37v3luskt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitspilani.bosm2019",
+            "certificate_hash": "3ec13ce94dc184815d2d0ae99fb86ce542a52c2e"
+          }
+        },
+        {
+          "client_id": "601369924262-lfgqe3sdmtv2km6m0qtrhmoe5ndt9cdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitspilani.bosm2019",
+            "certificate_hash": "8d59ee7781ff7d2e3729a3273054549b5b8d4179"
+          }
+        },
+        {
           "client_id": "601369924262-b8dosqqvqir176eq0esrbk9vfn9kl9jl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -38,6 +54,49 @@
             {
               "client_id": "601369924262-kdnt3tfodl37ek6okh0n901sl1vuvbja.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "601369924262-lpefgjn7s20b2dd3al3mh65ef1qbcvhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "c"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601369924262:android:770d6f49f1846317",
+        "android_client_info": {
+          "package_name": "com.bitspilani.bosmportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601369924262-kdnt3tfodl37ek6okh0n901sl1vuvbja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuyDTgYQVoLg11-zTnES6wFtU7RaBdUV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601369924262-kdnt3tfodl37ek6okh0n901sl1vuvbja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "601369924262-lpefgjn7s20b2dd3al3mh65ef1qbcvhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "c"
+              }
             }
           ]
         }
