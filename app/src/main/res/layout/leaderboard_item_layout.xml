@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="60dp"
+    android:id="@+id/constraint_leaderboard_item"
+    android:layout_margin="4dp"
     android:background="@drawable/leaderboard_border">
 
 
@@ -12,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.33" />
+        app:layout_constraintGuide_percent="0.17" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -28,11 +30,17 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="Rank"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/circle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 
     <TextView
         android:id="@+id/player_name"
@@ -40,7 +48,7 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="Name"
-        android:textColor="#000000"
+        android:textColor="#026606"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
@@ -52,7 +60,7 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="Score"
-        android:textColor="#000000"
+        android:textColor="#026606"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
